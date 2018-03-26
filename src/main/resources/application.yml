@@ -1,9 +1,9 @@
 spring:
   datasource:
-    platform: postgres
-    url: ${JDBC_DATABASE_URL}
-    username: ${JDBC_DATABASE_USERNAME}
-    password: ${JDBC_DATABASE_PASSWORD}
+    platform: postgresql
+    url: jdbc:postgresql://ec2-54-75-244-248.eu-west-1.compute.amazonaws.com:5432/daq6m5s6eihatc?sslmode=require
+    username: bfzpcqyjqefrbk
+    password: 619edf6a34a746c2188d33d2e15c28b88b4f37f981e7e8529624e8acc3cc7d22
     driverClassName: org.postgresql.Driver
   jpa:
     database: POSTGRESQL
