@@ -8,7 +8,7 @@ public class StartProjectController {
 	
     @RequestMapping("/")
     public String index() {
-        return "Jackson Freire";
+        return "Bienvenido a la pagina de Jackson Freire";
     }
 
 }
