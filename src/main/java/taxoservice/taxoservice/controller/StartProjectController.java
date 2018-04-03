@@ -17,7 +17,7 @@ import taxoservice.taxoservice.services.ContactService;
 
 
 @RestController
-@CrossOrigin(origins = "https://taxoservice.herokuapp.com/")
+@CrossOrigin(origins = "https://taxoservicefe.herokuapp.com/")
 @RequestMapping("/contacts")
 public class StartProjectController {
 	
