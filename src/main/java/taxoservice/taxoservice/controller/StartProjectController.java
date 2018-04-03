@@ -17,7 +17,6 @@ import taxoservice.taxoservice.services.ContactService;
 
 
 @RestController
-@CrossOrigin(origins = "https://taxoservicefe.herokuapp.com/")
 @RequestMapping("/contacts")
 public class StartProjectController {
 	
@@ -30,6 +29,7 @@ public class StartProjectController {
         return "Bienvenido a la pagina de Jackson Freire";
     }
     
+    @CrossOrigin(origins = "https://taxoservicefe.herokuapp.com/")
     @GetMapping("/showcontacts")
     public List<ContactModel> showContacts() {
     	
